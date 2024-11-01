@@ -33,42 +33,30 @@
 .card-tray {
   display: flex;
   flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.page-container {
+  display: flex;
   gap: 16px;
 }
 
-button {
-  width: 12vw;
-  height: 35px;
-  font-size: 15px;
-  background-color: transparent;
-  border-radius: 6px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  color: #2F3136;
-  border: none;
-  opacity: 0.9;
-  transition: 0.2s;
-  text-align: left;
-  display: flex;
-  gap: 5px;
-  justify-content: start;
-  align-items: center;
-}
-
-button:hover {
-  opacity: 1.5;
-  border-width: 1px;
-  background-color: #f6f6f6;
-}
-
 .quarter-column {
-  border: 2px solid #F2F2F4;
+  border: 2px solid transparent;
   background-color: transparent;
   border-width: 1.5px;
-  padding: 15px 14px;
+  padding: 4px 14px;
   border-radius: 5px;
   width: 21vw;
   height: auto;
+}
+
+.no-task {
+  color: #aaa;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 
