@@ -1,45 +1,4 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .split {
   height: 100%;
@@ -47,7 +6,6 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,6 +20,55 @@
 .right {
   right: 0;
   width: 95.3%;
+  padding-left: 3.5%;
+}
+
+.page-header {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #2F3136;
+}
+
+.card-tray {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+button {
+  width: 12vw;
+  height: 35px;
+  font-size: 15px;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #2F3136;
+  border: none;
+  opacity: 0.9;
+  transition: 0.2s;
+  text-align: left;
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+  align-items: center;
+}
+
+button:hover {
+  opacity: 1.5;
+  border-width: 1px;
+  background-color: #f6f6f6;
+}
+
+.quarter-column {
+  border: 2px solid #F2F2F4;
+  background-color: transparent;
+  border-width: 1.5px;
+  padding: 15px 14px;
+  border-radius: 5px;
+  width: 21vw;
+  height: auto;
 }
 
 

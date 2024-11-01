@@ -1,0 +1,13 @@
+.timeLabel {
+  font-family: "Open Sans", sans-serif;
+  color: #5D6372;
+  padding-top: 0.5vh;
+}
+
+.quarter {
+  font-weight: 400;
+}
+
+.month {
+  font-size: 18px;
+}
